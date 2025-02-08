@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0a192f;
+    color: #ccd6f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+}
+
+.container {
+    max-width: 800px;
+    padding: 40px;
+
+    
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #20c997;
+    text-shadow: 3px 3px 5px rgba(0, 255, 204, 0.5); 
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 3px rgba(0, 255, 204, 0.5);
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6;
+    text-shadow: 0px 0px 100px rgb(255, 255, 255); 
+}
+
+.highlight {
+    color: #20c997;
+    font-weight: bold;
+
+}
+
+.skills, .education {
+    list-style-type: none;
+    padding: 0;
+    text-shadow: 0px 0px 100px rgb(255, 255, 255); 
+}
+
+.skills li, .education li {
+
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.contact a {
+    color: #20c997;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#16a085; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:#16a085; 
+  }
